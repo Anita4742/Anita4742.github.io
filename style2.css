@@ -8,8 +8,8 @@ Body {font-family: 'Open Sans', sans-serif;}
     padding-top: 5px;
     padding-bottom: 5px;}
     
-.logo {max-width: 15%;
-        width: 200px;
+#logo {max-width: 15%;
+        min-width: 200px;
         min-height: 70px;}
 
 .navbutton {list-style-type: none;
@@ -103,3 +103,8 @@ Body {font-family: 'Open Sans', sans-serif;}
 .treeh {display: inline-block;
         position: relative;}
 .tree {display: inline-block;}
+
+/*-----Caravan page CSS -----*/
+.carav {display: inline-block;
+        white-space: nowrap;
+}
